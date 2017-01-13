@@ -47,3 +47,6 @@ gem 'sprockets', '2.11.0'
 
 # Use Kaminari for pagination
 gem 'kaminari'
+
+# Use Simple Form gem to build forms
+gem 'simple_form'
