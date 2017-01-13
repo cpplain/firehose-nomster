@@ -50,3 +50,6 @@ gem 'kaminari'
 
 # Use Simple Form gem to build forms
 gem 'simple_form'
+
+# Use Devise gem for user authentication
+gem 'devise', '>= 3.2.4'
