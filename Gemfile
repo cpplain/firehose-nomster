@@ -53,3 +53,9 @@ gem 'simple_form'
 
 # Use Devise gem for user authentication
 gem 'devise', '>= 3.2.4'
+
+# Use Geocoder gem for geocoding
+gem 'geocoder', '1.3.4'
+
+# Use Figaro gem to load sensitive configuration values into ENV
+gem 'figaro', '>= 1.0.0'
