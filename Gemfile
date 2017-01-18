@@ -62,3 +62,6 @@ gem 'figaro', '>= 1.0.0'
 
 # Use CarrierWave to upload files
 gem 'carrierwave', '~> 1.0'
+
+# Use Fog to upload files to AWS with CarrierWave
+gem 'fog'
