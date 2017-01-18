@@ -1,4 +1,15 @@
 Rails.application.configure do
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address: 'secure199.inmotionhosting.com',
+    port: 587,
+    domain: 'jetcitycoder.com',
+    user_name: ENV['EMAIL_ADDRESS'],
+    password: ENV['EMAIL_PASSWORD'],
+    authentication: 'plain',
+    enable_starttls_auto: true
+  }
+
   config.action_mailer.default_url_options = { host: 'localhost:3030' }
   # Settings specified here will take precedence over those in config/application.rb.
 
