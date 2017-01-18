@@ -59,3 +59,6 @@ gem 'geocoder', '1.3.4'
 
 # Use Figaro gem to load sensitive configuration values into ENV
 gem 'figaro', '>= 1.0.0'
+
+# Use CarrierWave to upload files
+gem 'carrierwave', '~> 1.0'
