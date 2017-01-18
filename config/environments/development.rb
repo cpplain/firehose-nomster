@@ -6,8 +6,8 @@ Rails.application.configure do
 #    address: 'secure199.inmotionhosting.com',
 #    port: 587,
 #    domain: 'jetcitycoder.com',
-#    user_name: ENV['EMAIL_ADDRESS'],
-#    password: ENV['EMAIL_PASSWORD'],
+#    user_name: ENV['DEV_TEST_ADDRESS'],
+#    password: ENV['DEV_TEST_PASSWORD'],
 #    authentication: 'plain',
 #    enable_starttls_auto: true
 #  }
